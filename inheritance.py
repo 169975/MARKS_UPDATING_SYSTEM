@@ -1,4 +1,4 @@
-class Person:
+class Registered_student:
     pass
     def __init__(self, name, id_no):
         self.name =name
@@ -8,7 +8,7 @@ class Person:
             print(f"{self.name} has signed attendance")
             return 0
         
-class Student(Person):
+class Student(Registered_student):
     pass
         
 student = Student("John", 11)

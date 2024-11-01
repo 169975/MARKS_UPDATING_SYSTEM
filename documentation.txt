@@ -1,0 +1,2 @@
+This is a system that enables a lecturer access a student's marks so that they can update it in the Academic Management System(AMS)
+The system is composed of the person class which contains attributes and methods that can be used to create objects such as student and lecturer. The class Registered_Student in inheritance enables the object student to sign attendance. The main class is where the objects are ceated together with their functionalties.
