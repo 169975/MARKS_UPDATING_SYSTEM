@@ -8,11 +8,14 @@ class Person:#contains attributes and methods that are common to both students a
     def do_exams(self):
         print(f"{self.name} has done exams")
         return 0
+    
+    #method overriding
+class Student2(Person):
+    pass
 
-
-    def update_marks(self):
-        print(f"{self.name} has updated marks")
+    def do_exams(self):
+        print(f"{self.name} has not done exams")
         return 0
-
-
-
+    
+student = Student2("Ken","Student")
+print(student.do_exams())

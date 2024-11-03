@@ -7,7 +7,9 @@ class Registered_student:
     def sign_attendance(self):
             print(f"{self.name} has signed attendance")
             return 0
-        
+
+
+#child class 
 class Student(Registered_student):
     pass
         
