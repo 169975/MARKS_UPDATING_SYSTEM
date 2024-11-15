@@ -1,7 +1,7 @@
 from person import Person
 
 student = Person("John", "Student")
-print(student.do_exams())
+print(student.borrow_book())
 
 lecturer = Person("Dr.Paul", "Lecturer")
-print(lecturer.update_marks())
+print(lecturer.borrow_book())

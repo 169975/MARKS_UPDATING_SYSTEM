@@ -5,14 +5,11 @@ class Person:#contains attributes and methods that are common to both students a
         self.role = role
 
 
-    def do_exams(self):
-        print(f"{self.name} has done exams")
+    def borrow_book(self):
+        print(f"{self.name} has borrowed a book")
         return 0
 
 
-    def update_marks(self):
-        print(f"{self.name} has updated marks")
-        return 0
-
+    
 
 

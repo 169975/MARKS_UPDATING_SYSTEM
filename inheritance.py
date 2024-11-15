@@ -1,5 +1,4 @@
-class Registered_student:
-    pass
+class Student:
     def __init__(self, name, id_no):
         self.name =name
         self.id_no = id_no
@@ -10,7 +9,7 @@ class Registered_student:
 
 
 #child class 
-class Student(Registered_student):
+class Class_rep(Student):
     pass
         
 student = Student("John", 11)
